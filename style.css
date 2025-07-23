@@ -6,6 +6,9 @@
     "wdth" 100;
 }
 /* shared style */
+.common-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -21,6 +24,17 @@
     border-radius: 5px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+}
+
 /* header */
 header{
     background-image: url('images/developer.png'), url('images/header_bg.png');
@@ -69,4 +83,39 @@ nav ul{
 }
 .banner-pic{
     width: 580px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding:111px 137px;
+    text-align: center;
+    margin-top: 94px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+}
+.skills{
+    text-align: center;
+    max-width: 909px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    text-align: left;
+    border-radius: 5px;
+    padding: 30px 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
