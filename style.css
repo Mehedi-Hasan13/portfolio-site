@@ -228,4 +228,24 @@ main {
         padding:10px;
     }
     .about-items{flex-direction: column;}
+    header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .banner-pic{
+        width: 100%;
+    }
+    .bar,nav{
+        flex-direction: column;
+    }
+    .bar{
+        gap: 10px;
+    }
+    .btn-primary{margin-bottom: 10px;}
 }
